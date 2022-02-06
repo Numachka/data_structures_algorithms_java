@@ -1,4 +1,4 @@
-package com.dsa.math;
+package com.basic.math;
 
 import org.junit.jupiter.api.*;
 

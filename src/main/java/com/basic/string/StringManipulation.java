@@ -1,4 +1,4 @@
-package com.dsa.string;
+package com.basic.string;
 
 public class StringManipulation {
 

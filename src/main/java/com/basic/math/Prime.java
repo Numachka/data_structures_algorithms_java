@@ -1,4 +1,4 @@
-package com.dsa.math;
+package com.basic.math;
 
 import java.util.ArrayList;
 import java.util.List;

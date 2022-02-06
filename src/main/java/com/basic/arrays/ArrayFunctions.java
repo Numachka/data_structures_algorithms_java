@@ -1,6 +1,6 @@
-package com.dsa.arrays;
+package com.basic.arrays;
 
-import com.dsa.utils.SortingUtils;
+import com.basic.utils.SortingUtils;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor

@@ -1,4 +1,4 @@
-package com.dsa.arrays;
+package com.basic.arrays;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

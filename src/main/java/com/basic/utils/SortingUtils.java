@@ -1,8 +1,6 @@
-package com.dsa.utils;
+package com.basic.utils;
 
 import lombok.experimental.UtilityClass;
-
-import java.lang.*;
 
 @UtilityClass
 public class SortingUtils {
