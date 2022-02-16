@@ -1,5 +1,8 @@
 package com.basic.string;
 
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class StringManipulation {
 
     public String disemvowel(String string) {
@@ -12,5 +15,14 @@ public class StringManipulation {
 
     public String disemvowelV2(String string) {
         return string.replaceAll("[ieaouIEAOU]", "");
+    }
+
+    public String camelCase(String input) { //camelCase -> camel Case
+//        return Stream.of(input.split("")).map(letter -> {
+//            if (!input.isEmpty() && letter.charAt(0) < 'a')
+//                return " " + letter;
+//            return letter;
+//        }).collect(Collectors.joining(""));
+        return input.replaceAll("([A-Z])", " $1");
     }
 }

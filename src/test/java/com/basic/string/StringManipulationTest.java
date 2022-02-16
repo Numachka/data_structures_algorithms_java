@@ -27,4 +27,12 @@ class StringManipulationTest {
                     stringManipulation.disemvowelV2("What are you, a communist?"));
         });
     }
+
+    @Test
+    void camelCaseTest() {
+        Assertions.assertEquals( "camel Casing", stringManipulation.camelCase("camelCasing"));
+        Assertions.assertEquals( "camel Casing Test", stringManipulation.camelCase("camelCasingTest"));
+        Assertions.assertEquals( "camelcasingtest", stringManipulation.camelCase("camelcasingtest"));
+        Assertions.assertEquals( "", stringManipulation.camelCase(""));
+    }
 }
